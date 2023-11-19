@@ -1,0 +1,23 @@
+---
+compiled_package_info:
+  package_name: transcript
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    transcript: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 3CDB4EA471812E97EBB864ED459BFA4BF558E46FB2419C1FF910FC5D270F07D1
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui
