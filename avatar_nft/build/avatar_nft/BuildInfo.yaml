@@ -1,0 +1,26 @@
+---
+compiled_package_info:
+  package_name: avatar_nft
+  address_alias_instantiation:
+    avatar_nft: "0000000000000000000000000000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+  source_digest: A6CC55728CDDE1755B41B5946AFECFB36B7B33513AE14571465DD88D6DFF852F
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    additional_named_addresses: {}
+dependencies:
+  - MoveStdlib
+  - Sui
